@@ -12,7 +12,7 @@ Limit the groups enumerated by setting a search filter and the search root in AD
 I've seen this enumerate 100K+ groups, but that also takes a long time.
 
 I'm using this method running as the user after logon, to determine the resources a user
-can see.
+can see. Looking through ~300 groups with 14K members total takes about 1 second.
 
 07/09/2019 Johan Greefkes
 #>
